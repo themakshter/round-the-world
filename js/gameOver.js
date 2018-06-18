@@ -55,7 +55,7 @@ var gameOver ={
         this.state.start(this.states[game.global.modeIndex]);
     },
     feedback: function(){
-        window.open("https://www.surveymonkey.co.uk/user/sign-up/", "_blank");
+        window.open("https://www.surveymonkey.co.uk/r/VJ7K3PX", "_blank");
     },
     
     home: function(){
