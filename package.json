@@ -19,8 +19,8 @@
     "url": "https://github.com/msz4/Round_the_World/issues"
   },
   "homepage": "https://github.com/msz4/Round_the_World#readme",
-  "devDependencies": {
+  "devDependencies": {},
+  "dependencies": {
     "@orange-games/phaser-input": "^2.0.5"
-  },
-  "dependencies": {}
+  }
 }
