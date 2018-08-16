@@ -21,7 +21,8 @@
   "homepage": "https://github.com/msz4/Round_the_World#readme",
   "devDependencies": {},
   "dependencies": {
+    "phaser-ce": "2.10.6",
     "@orange-games/phaser-input": "^2.0.5",
-    "phaser-ce": "2.10.6"
+    "@orange-games/phaser-nineslice": "2.0.1"
   }
 }
