@@ -6,6 +6,10 @@
   version "2.0.5"
   resolved "https://registry.yarnpkg.com/@orange-games/phaser-input/-/phaser-input-2.0.5.tgz#8eb2d987c8fede185c8024395290c506f7368fc8"
 
+"@orange-games/phaser-nineslice@2.0.1":
+  version "2.0.1"
+  resolved "https://registry.yarnpkg.com/@orange-games/phaser-nineslice/-/phaser-nineslice-2.0.1.tgz#43f7ceee095e20f92ced082407169a73506938d9"
+
 phaser-ce@2.10.6:
   version "2.10.6"
   resolved "https://registry.yarnpkg.com/phaser-ce/-/phaser-ce-2.10.6.tgz#dad73574264d6d014296aff9c0457c06ee89137e"
