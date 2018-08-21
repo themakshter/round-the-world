@@ -269,7 +269,7 @@ var preloadState ={
         this.game.load.image('btHome', 'assets/images/options.png'); 
         this.game.load.bitmapFont('myguifont', 'assets/fonts/guifont.png','assets/fonts/guifont.fnt');
         this.game.load.spritesheet('lives', 'assets/images/lives.png', 324, 68, 5);
-        this.game.load.text('infoAF', 'js/countries.json ');
+        this.game.load.text('infoAF', 'src/countries.json ');
         
         this.game.load.audio('correct', 'assets/audio/correct.ogg');
         this.game.load.audio('wrong', 'assets/audio/wrong.ogg');
