@@ -1,12 +1,12 @@
 var populationState ={    
     create: function() {
         console.log('inside');
-        game.global.score=0;
+        this.game.global.score=0;
         this.usedPopulation =[];
         this.ansPost = [{text:'', choice:''},{text:'', choice:''},{text:'', choice:''},{text:'', choice:''}];
-        this.countriesAF = game.global.fullArray[game.global.continentIndex].slice(0);
-        console.log(game.global.continentIndex);
-        console.log(game.global.fullArray[game.global.continentIndex]);
+        this.countriesAF = this.game.global.fullArray[this.game.global.continentIndex].slice(0);
+        console.log(this.game.global.continentIndex);
+        console.log(this.game.global.fullArray[this.game.global.continentIndex]);
         
         this.streak = 0;
 
@@ -14,34 +14,34 @@ var populationState ={
         this.answer;
         this.options=[];            
         
-        this.correctSound = game.add.audio('correct');
-        this.correctSound2 = game.add.audio('correct2');
-        this.wrongSound = game.add.audio('wrong');
-        this.clickSound = game.add.audio('click');
-        this.overSound = game.add.audio('over');
-        this.streakSound = game.add.audio('streak');
+        this.correctSound = this.game.add.audio('correct');
+        this.correctSound2 = this.game.add.audio('correct2');
+        this.wrongSound = this.game.add.audio('wrong');
+        this.clickSound = this.game.add.audio('click');
+        this.overSound = this.game.add.audio('over');
+        this.streakSound = this.game.add.audio('streak');
         
         
         //get states data from json
-        getInfo = JSON.parse(game.cache.getText('infoAF'));   
+        getInfo = JSON.parse(this.game.cache.getText('infoAF'));   
         
-        this.questionLine1 = game.add.bitmapText(this.world.centerX, 350, 'myfont', "The population of", 80);
-        this.questionLine2 = game.add.bitmapText(this.world.centerX, 450, 'myfont', "Democratic Republic of the Congo is ?", 80);
+        this.questionLine1 = this.game.add.bitmapText(this.world.centerX, 350, 'myfont', "The population of", 80);
+        this.questionLine2 = this.game.add.bitmapText(this.world.centerX, 450, 'myfont', "Democratic Republic of the Congo is ?", 80);
         this.questionLine1.anchor.set(0.5);
         this.questionLine2.anchor.set(0.5);
 
         
         this.stats= {textS:"", lives:4};
 
-        this.txtScore = game.add.bitmapText(this.world.centerX, 45, 'myguifont', "SCORE: "+game.global.score, 60);
+        this.txtScore = this.game.add.bitmapText(this.world.centerX, 45, 'myguifont', "SCORE: "+this.game.global.score, 60);
         this.txtScore.anchor.setTo(0.5,0.5);
         
         
-        this.backBt = game.add.sprite(0, 10, 'btBack');
+        this.backBt = this.game.add.sprite(0, 10, 'btBack');
         this.backBt.inputEnabled = true;
         this.backBt.events.onInputDown.add(this.home, this);
 
-        this.livesImage = game.add.sprite(1276, 0, 'lives');
+        this.livesImage = this.game.add.sprite(1276, 0, 'lives');
         this.livesImage.frame = 4;
         //stats.text.anchor.setTo(0.5,0.5);
 
@@ -49,25 +49,25 @@ var populationState ={
         var optYPos = 700;
         var optXPos = 580;
         
-        this.ansPost[0] = game.add.sprite(580, 700, 'option');
+        this.ansPost[0] = this.game.add.sprite(580, 700, 'option');
         this.ansPost[0].anchor.setTo(0.5);
         
-        this.ansPost[1] = game.add.sprite(1000, 700, 'option');
+        this.ansPost[1] = this.game.add.sprite(1000, 700, 'option');
         this.ansPost[1].anchor.setTo(0.5);
         this.ansPost[1].scale.x *=-1;
         
-        this.ansPost[2] = game.add.sprite(580, 1020, 'option');
+        this.ansPost[2] = this.game.add.sprite(580, 1020, 'option');
         this.ansPost[2].anchor.setTo(0.5);
         this.ansPost[2].scale.y *=-1;
         
-        this.ansPost[3] = game.add.sprite(1000, 1020, 'option');
+        this.ansPost[3] = this.game.add.sprite(1000, 1020, 'option');
         this.ansPost[3].anchor.setTo(0.5);
         this.ansPost[3].scale.x *=-1;
         this.ansPost[3].scale.y *=-1;
         
         for(var j=0;j<2;j++){
             for(var i=0; i<2;i++){
-                this.ansPost[index].text = game.add.bitmapText(optXPos, optYPos, 'myfont', '', 45);
+                this.ansPost[index].text = this.game.add.bitmapText(optXPos, optYPos, 'myfont', '', 45);
                 this.ansPost[index].text.maxWidth = 300;
                 this.ansPost[index].text.anchor.setTo(0.5);
                 this.ansPost[index].text.align = 'center'
@@ -89,14 +89,14 @@ var populationState ={
     
     home: function(){
         this.clickSound.play();
-        game.state.start('menuState');
+        this.game.state.start('menuState');
     },
 
     checkChoice: function(choice){
         if (this.answer == choice.choice){
             this.correctSound.play();
             choice.frame=1;
-            game.time.events.add(Phaser.Timer.SECOND * 0.2, this.correct, this);
+            this.game.time.events.add(Phaser.Timer.SECOND * 0.2, this.correct, this);
         }
         else{
             this.wrong();
@@ -115,7 +115,7 @@ var populationState ={
                     this.ansPost[m].frame=1;
                 }
             }
-            game.time.events.add(Phaser.Timer.SECOND *3, this.gameover, this);
+            this.game.time.events.add(Phaser.Timer.SECOND *3, this.gameover, this);
         }
         else{
             this.wrongSound.play();
@@ -125,17 +125,17 @@ var populationState ={
 
     },
     gameover: function(){
-        game.state.start('gameOver');
+        this.game.state.start('gameOver');
     },
 
     correct: function(){
         console.log("remaining: "+this.countriesAF.length);
         if (this.countriesAF.length<=1){
-            game.state.start('winState');
+            this.game.state.start('winState');
         }
         else{
-            game.global.score+=1;
-            this.txtScore.setText('SCORE: '+game.global.score);
+            this.game.global.score+=1;
+            this.txtScore.setText('SCORE: '+this.game.global.score);
             this.streak+=1;
             if(this.streak>=3){this.bonus();}
             this.countriesAF.pop()
