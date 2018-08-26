@@ -1,4 +1,4 @@
-var populationState ={    
+module.exports ={    
     create: function() {
         console.log('inside');
         this.game.global.score=0;

@@ -1,4 +1,4 @@
-var menuState ={    
+module.exports ={    
     preload: function() {
 },
 

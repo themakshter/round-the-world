@@ -1,4 +1,4 @@
-var feedbackState ={    
+module.exports ={    
     
     create: function() {       
         
