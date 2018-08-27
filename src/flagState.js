@@ -12,15 +12,21 @@ module.exports = {
 
     this.streak = 0;
 
-    this.txtScore = this.game.add.bitmapText(this.world.centerX, 45, 'myguifont', "SCORE: " + this.game.global.score, 60);
+    this.txtScore = this.game.add.bitmapText(this.world.centerX, this.game.getScaledHeight(45), 'myguifont', "SCORE: " + this.game.global.score, this.game.getScaledHeight(60) );
     this.txtScore.anchor.setTo(0.5, 0.5);
 
-    this.backBt = this.game.add.sprite(0, 10, 'btBack');
+    this.backBt = this.game.add.sprite(0, this.game.getScaledHeight(10), 'btBack');
+    this.backBt.height = this.game.getScaledHeight(this.backBt.height)
+    this.backBt.width = this.game.getScaledWidth(this.backBt.width);
     this.backBt.inputEnabled = true;
     this.backBt.events.onInputDown.add(this.home, this);
     this.stats = { textS: "", textL: "", lives: 4 };
-    this.livesImage = this.game.add.sprite(1150, 0, 'lives');
+
+    this.livesImage = this.game.add.sprite(this.game.getScaledWidth(1150), 0, 'lives');
     this.livesImage.frame = 4;
+    this.livesImage.height = this.game.getScaledHeight(this.livesImage.height)
+    this.livesImage.width = this.game.getScaledWidth(this.livesImage.width);
+
 
     this.ansPost = [{ flag: '', choice: '' }, { flag: '', choice: '' }, { flag: '', choice: '' }, { flag: '', choice: '' }];
     this.countriesAF = this.game.global.fullArray[this.game.global.continentIndex].slice(0);
@@ -34,8 +40,8 @@ module.exports = {
     //get states data from json
     getInfo = JSON.parse(this.game.cache.getText('infoAF'));
 
-    this.questionLine1 = this.game.add.bitmapText(this.world.centerX, 350, 'myfont', "The flag of", 80);
-    this.questionLine2 = this.game.add.bitmapText(this.world.centerX, 450, 'myfont', "Democratic Republic of the Congo is ?", 80);
+    this.questionLine1 = this.game.add.bitmapText(this.world.centerX, this.game.getScaledHeight(350), 'myfont', "The flag of", this.game.getScaledHeight(80) );
+    this.questionLine2 = this.game.add.bitmapText(this.world.centerX, this.game.getScaledHeight(450), 'myfont', "Democratic Republic of the Congo is ?", this.game.getScaledHeight(80) );
     this.questionLine1.anchor.set(0.5);
     this.questionLine2.anchor.set(0.5);
 
@@ -43,24 +49,32 @@ module.exports = {
     var optYPos = 700;
     var optXPos = 580;
 
-    this.ansPost[0] = this.game.add.sprite(580, 700, 'option');
+    this.ansPost[0] = this.game.add.sprite(this.game.getScaledWidth(580), this.game.getScaledHeight(700), 'option');
+    this.ansPost[0].height = this.game.getScaledHeight(this.ansPost[0].height)
+    this.ansPost[0].width = this.game.getScaledWidth(this.ansPost[0].width);
     this.ansPost[0].anchor.setTo(0.5);
     this.ansPost[0].inputEnabled = true;
     this.ansPost[0].events.onInputDown.add(this.checkChoice, this);
 
-    this.ansPost[1] = this.game.add.sprite(1000, 700, 'option');
+    this.ansPost[1] = this.game.add.sprite(this.game.getScaledWidth(1000), this.game.getScaledHeight(700), 'option');
+    this.ansPost[1].height = this.game.getScaledHeight(this.ansPost[1].height)
+    this.ansPost[1].width = this.game.getScaledWidth(this.ansPost[1].width);
     this.ansPost[1].anchor.setTo(0.5);
     this.ansPost[1].scale.x *= -1;
     this.ansPost[1].inputEnabled = true;
     this.ansPost[1].events.onInputDown.add(this.checkChoice, this);
 
-    this.ansPost[2] = this.game.add.sprite(580, 1020, 'option');
+    this.ansPost[2] = this.game.add.sprite(this.game.getScaledWidth(580), this.game.getScaledHeight(1020), 'option');
+    this.ansPost[2].height = this.game.getScaledHeight(this.ansPost[2].height)
+    this.ansPost[2].width = this.game.getScaledWidth(this.ansPost[2].width);
     this.ansPost[2].anchor.setTo(0.5);
     this.ansPost[2].scale.y *= -1;
     this.ansPost[2].inputEnabled = true;
     this.ansPost[2].events.onInputDown.add(this.checkChoice, this);
 
-    this.ansPost[3] = this.game.add.sprite(1000, 1020, 'option');
+    this.ansPost[3] = this.game.add.sprite(this.game.getScaledWidth(1000), this.game.getScaledHeight(1020), 'option');
+    this.ansPost[3].height = this.game.getScaledHeight(this.ansPost[3].height)
+    this.ansPost[3].width = this.game.getScaledWidth(this.ansPost[3].width);
     this.ansPost[3].anchor.setTo(0.5);
     this.ansPost[3].scale.x *= -1;
     this.ansPost[3].scale.y *= -1;
@@ -73,19 +87,21 @@ module.exports = {
   setFlags: function (data) {
     console.log('create options');
     var index = 0;
-    var optXPos = 580;
-    var optYPos = 700;
+    var optXPos = this.game.getScaledWidth(580);
+    var optYPos = this.game.getScaledHeight(700);
 
     for (var i = 0; i < 2; i++) {
       for (var j = 0; j < 2; j++) {
         this.ansPost[index].flag = this.game.add.sprite(optXPos, optYPos, data[index]);
+        this.ansPost[index].flag.height = this.game.getScaledHeight(this.ansPost[index].flag.height)
+        this.ansPost[index].flag.width = this.game.getScaledWidth(this.ansPost[index].flag.width);
         this.ansPost[index].flag.anchor.setTo(0.5);
         this.ansPost[index].choice = data[index];
-        optXPos += 420;
+        optXPos += this.game.getScaledWidth(420);
         index += 1;
       }
-      optXPos = 580;
-      optYPos += 320;
+      optXPos = this.game.getScaledWidth(580);
+      optYPos += this.game.getScaledHeight(320);
     }
   },
 

@@ -1,15 +1,19 @@
 module.exports = {
   //load all flgas, bitmap text, buttons
   preload: function () {
-    this.bg = this.game.add.bitmapText(this.world.centerX, 400, 'myfont', "Round the World", 150);
+    this.bg = this.game.add.bitmapText(this.world.centerX, this.game.getScaledHeight(400), 'myfont', "Round the World", this.game.getScaledHeight(150));
     this.bg.anchor.setTo(0.5);
 
-    this.globe = this.game.add.sprite(this.world.centerX, 700, 'globe');
+    this.globe = this.game.add.sprite(this.world.centerX, this.game.getScaledHeight(700), 'globe');
+    this.globe.height = this.game.getScaledHeight(this.globe.height)
+    this.globe.width = this.game.getScaledWidth(this.globe.width);
     this.globe.anchor.setTo(0.5);
 
-    this.loadBar = this.game.add.sprite(this.world.centerX, 950, 'loadingBar');
+    this.loadBar = this.game.add.sprite(this.world.centerX, this.game.getScaledHeight(950), 'loadingBar');
     this.loadBar.anchor.setTo(0.5);
     this.load.setPreloadSprite(this.loadBar);
+    this.loadBar.height = this.game.getScaledHeight(this.loadBar.height)
+    this.loadBar.width = this.game.getScaledWidth(this.loadBar.width);
 
     this.game.load.image('AF', 'assets/flags/AF.png');
     this.game.load.image('AX', 'assets/flags/AX.png');

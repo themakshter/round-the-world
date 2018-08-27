@@ -6,6 +6,14 @@ function createGameInDiv(divId) {
     game.plugins.add(PhaserInput.Plugin);
   });
 
+  game.getScaledWidth = function(widthToScale){
+    return widthToScale * (this.width/1600);
+  };
+
+  game.getScaledHeight = function(heightToScale){
+    return heightToScale * (this.height/1200);
+  };
+
   game.global = {
     score: 0,              //for keeping score in the different modes and displaying on game over
     highscore: [[0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0]],
