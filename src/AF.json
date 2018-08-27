@@ -1,76 +1,102 @@
 {
-"AO": {
+  "AO": {
     "name": "Angola",
     "native": "Angola",
     "phone": "244",
     "continent": "AF",
     "capital": "Luanda",
     "currency": "AOA",
-    "cities":["Huambo","Benguela","N'dalatando"],
-    "cities":["Huambo","Benguela","N'dalatando"],
+    "cities": [
+      "Huambo",
+      "Benguela",
+      "N'dalatando"
+    ],
     "languages": [
       "pt"
     ]
   },
-"BW": {
+  "BW": {
     "name": "Botswana",
     "native": "Botswana",
     "phone": "267",
     "continent": "AF",
     "capital": "Gaborone",
     "currency": "BWP",
-    "cities":["Francistown","Molepolole","Maun"],
+    "cities": [
+      "Francistown",
+      "Molepolole",
+      "Maun"
+    ],
     "languages": [
       "en",
       "tn"
     ]
-},
-"BF": {
+  },
+  "BF": {
     "name": "Burkina Faso",
     "native": "Burkina Faso",
     "phone": "226",
     "continent": "AF",
     "capital": "Ouagadougou",
     "currency": "XOF",
-    "cities":["Bobo-Dioulasso","Koudougou","Ouahigouya"],
+    "cities": [
+      "Bobo-Dioulasso",
+      "Koudougou",
+      "Ouahigouya"
+    ],
     "languages": [
       "fr",
       "ff"
     ]
   },
-"BI": {
+  "BI": {
     "name": "Burundi",
     "native": "Burundi",
     "phone": "257",
     "continent": "AF",
     "capital": "Bujumbura",
     "currency": "BIF",
-    "cities":["","","",""],
+    "cities": [
+      "",
+      "",
+      "",
+      ""
+    ],
     "languages": [
       "fr",
       "rn"
     ]
   },
- "BJ": {
+  "BJ": {
     "name": "Benin",
-    "native": "Bénin",
+    "native": "Bï¿½nin",
     "phone": "229",
     "continent": "AF",
     "capital": "Porto-Novo",
     "currency": "XOF",
-     "cities":["","","",""],
+    "cities": [
+      "",
+      "",
+      "",
+      ""
+    ],
     "languages": [
       "fr"
     ]
   },
   "CD": {
     "name": "Democratic Republic of the Congo",
-    "native": "République démocratique du Congo",
+    "native": "Rï¿½publique dï¿½mocratique du Congo",
     "phone": "243",
     "continent": "AF",
     "capital": "Kinshasa",
     "currency": "CDF",
-    "cities":["","","",""],
+    "cities": [
+      "",
+      "",
+      "",
+      ""
+    ],
     "languages": [
       "fr",
       "ln",
@@ -79,14 +105,19 @@
       "lu"
     ]
   },
-"CF": {
+  "CF": {
     "name": "Central African Republic",
-    "native": "Ködörösêse tî Bêafrîka",
+    "native": "Kï¿½dï¿½rï¿½sï¿½se tï¿½ Bï¿½afrï¿½ka",
     "phone": "236",
     "continent": "AF",
     "capital": "Bangui",
     "currency": "XAF",
-    "cities":["","","",""],
+    "cities": [
+      "",
+      "",
+      "",
+      ""
+    ],
     "languages": [
       "fr",
       "sg"
@@ -94,50 +125,70 @@
   },
   "CG": {
     "name": "Republic of the Congo",
-    "native": "République du Congo",
+    "native": "Rï¿½publique du Congo",
     "phone": "242",
     "continent": "AF",
     "capital": "Brazzaville",
     "currency": "XAF",
-      "cities":["","","",""],
+    "cities": [
+      "",
+      "",
+      "",
+      ""
+    ],
     "languages": [
       "fr",
       "ln"
     ]
   },
-"CI": {
+  "CI": {
     "name": "Ivory Coast",
-    "native": "Côte d'Ivoire",
+    "native": "Cï¿½te d'Ivoire",
     "phone": "225",
     "continent": "AF",
     "capital": "Yamoussoukro",
     "currency": "XOF",
-    "cities":["","","",""],
+    "cities": [
+      "",
+      "",
+      "",
+      ""
+    ],
     "languages": [
       "fr"
     ]
   },
-    "CM": {
+  "CM": {
     "name": "Cameroon",
     "native": "Cameroon",
     "phone": "237",
     "continent": "AF",
-    "capital": "Yaoundé",
+    "capital": "Yaoundï¿½",
     "currency": "XAF",
-    "cities":["","","",""],
+    "cities": [
+      "",
+      "",
+      "",
+      ""
+    ],
     "languages": [
       "en",
       "fr"
     ]
   },
-    "CV": {
+  "CV": {
     "name": "Cape Verde",
     "native": "Cabo Verde",
     "phone": "238",
     "continent": "AF",
     "capital": "Praia",
     "currency": "CVE",
-    "cities":["","","",""],
+    "cities": [
+      "",
+      "",
+      "",
+      ""
+    ],
     "languages": [
       "pt"
     ]
@@ -149,32 +200,47 @@
     "continent": "AF",
     "capital": "Djibouti",
     "currency": "DJF",
-      "cities":["","","",""],
+    "cities": [
+      "",
+      "",
+      "",
+      ""
+    ],
     "languages": [
       "fr",
       "ar"
     ]
   },
- "DZ": {
+  "DZ": {
     "name": "Algeria",
     "native": "???????",
     "phone": "213",
     "continent": "AF",
     "capital": "Algiers",
     "currency": "DZD",
-     "cities":["","","",""],
+    "cities": [
+      "",
+      "",
+      "",
+      ""
+    ],
     "languages": [
       "ar"
     ]
   },
-"EG": {
+  "EG": {
     "name": "Egypt",
     "native": "????",
     "phone": "20",
     "continent": "AF",
     "capital": "Cairo",
     "currency": "EGP",
-    "cities":["","","",""],
+    "cities": [
+      "",
+      "",
+      "",
+      ""
+    ],
     "languages": [
       "ar"
     ]
@@ -184,9 +250,14 @@
     "native": "??????? ???????",
     "phone": "212",
     "continent": "AF",
-    "capital": "El Aaiún",
+    "capital": "El Aaiï¿½n",
     "currency": "MAD,DZD,MRO",
-      "cities":["","","",""],
+    "cities": [
+      "",
+      "",
+      "",
+      ""
+    ],
     "languages": [
       "es"
     ]
@@ -198,158 +269,223 @@
     "continent": "AF",
     "capital": "Asmara",
     "currency": "ERN",
-      "cities":["","","",""],
+    "cities": [
+      "",
+      "",
+      "",
+      ""
+    ],
     "languages": [
       "ti",
       "ar",
       "en"
     ]
   },
-"ET": {
+  "ET": {
     "name": "Ethiopia",
     "native": "?????",
     "phone": "251",
     "continent": "AF",
     "capital": "Addis Ababa",
     "currency": "ETB",
-    "cities":["","","",""],
+    "cities": [
+      "",
+      "",
+      "",
+      ""
+    ],
     "languages": [
       "am"
     ]
   },
-"GA": {
+  "GA": {
     "name": "Gabon",
     "native": "Gabon",
     "phone": "241",
     "continent": "AF",
     "capital": "Libreville",
     "currency": "XAF",
-    "cities":["","","",""],
+    "cities": [
+      "",
+      "",
+      "",
+      ""
+    ],
     "languages": [
       "fr"
     ]
   },
-"GH": {
+  "GH": {
     "name": "Ghana",
     "native": "Ghana",
     "phone": "233",
     "continent": "AF",
     "capital": "Accra",
     "currency": "GHS",
-    "cities":["","","",""],
+    "cities": [
+      "",
+      "",
+      "",
+      ""
+    ],
     "languages": [
       "en"
     ]
   },
- "GM": {
+  "GM": {
     "name": "Gambia",
     "native": "Gambia",
     "phone": "220",
     "continent": "AF",
     "capital": "Banjul",
     "currency": "GMD",
-     "cities":["","","",""],
+    "cities": [
+      "",
+      "",
+      "",
+      ""
+    ],
     "languages": [
       "en"
     ]
   },
   "GN": {
     "name": "Guinea",
-    "native": "Guinée",
+    "native": "Guinï¿½e",
     "phone": "224",
     "continent": "AF",
     "capital": "Conakry",
     "currency": "GNF",
-      "cities":["","","",""],
+    "cities": [
+      "",
+      "",
+      "",
+      ""
+    ],
     "languages": [
       "fr",
       "ff"
     ]
   },
-"GQ": {
+  "GQ": {
     "name": "Equatorial Guinea",
     "native": "Guinea Ecuatorial",
     "phone": "240",
     "continent": "AF",
     "capital": "Malabo",
     "currency": "XAF",
-    "cities":["","","",""],
+    "cities": [
+      "",
+      "",
+      "",
+      ""
+    ],
     "languages": [
       "es",
       "fr"
     ]
   },
-"GW": {
+  "GW": {
     "name": "Guinea-Bissau",
-    "native": "Guiné-Bissau",
+    "native": "Guinï¿½-Bissau",
     "phone": "245",
     "continent": "AF",
     "capital": "Bissau",
     "currency": "XOF",
-    "cities":["","","",""],
+    "cities": [
+      "",
+      "",
+      "",
+      ""
+    ],
     "languages": [
       "pt"
     ]
   },
-"KE": {
+  "KE": {
     "name": "Kenya",
     "native": "Kenya",
     "phone": "254",
     "continent": "AF",
     "capital": "Nairobi",
     "currency": "KES",
-    "cities":["","","",""],
+    "cities": [
+      "",
+      "",
+      "",
+      ""
+    ],
     "languages": [
       "en",
       "sw"
     ]
   },
-"KM": {
+  "KM": {
     "name": "Comoros",
     "native": "Komori",
     "phone": "269",
     "continent": "AF",
     "capital": "Moroni",
     "currency": "KMF",
-    "cities":["","","",""],
+    "cities": [
+      "",
+      "",
+      "",
+      ""
+    ],
     "languages": [
       "ar",
       "fr"
     ]
   },
- "LS": {
+  "LS": {
     "name": "Lesotho",
     "native": "Lesotho",
     "phone": "266",
     "continent": "AF",
     "capital": "Maseru",
     "currency": "LSL,ZAR",
-     "cities":["","","",""],
+    "cities": [
+      "",
+      "",
+      "",
+      ""
+    ],
     "languages": [
       "en",
       "st"
     ]
-  }, 
-    "LR": {
+  },
+  "LR": {
     "name": "Liberia",
     "native": "Liberia",
     "phone": "231",
     "continent": "AF",
     "capital": "Monrovia",
     "currency": "LRD",
-    "cities":["","","",""],
+    "cities": [
+      "",
+      "",
+      "",
+      ""
+    ],
     "languages": [
       "en"
     ]
   },
-"LY": {
+  "LY": {
     "name": "Libya",
     "native": "??????",
     "phone": "218",
     "continent": "AF",
     "capital": "Tripoli",
     "currency": "LYD",
-    "cities":["","","",""],
+    "cities": [
+      "",
+      "",
+      "",
+      ""
+    ],
     "languages": [
       "ar"
     ]
@@ -361,32 +497,47 @@
     "continent": "AF",
     "capital": "Rabat",
     "currency": "MAD",
-      "cities":["","","",""],
+    "cities": [
+      "",
+      "",
+      "",
+      ""
+    ],
     "languages": [
       "ar"
     ]
   },
- "MG": {
+  "MG": {
     "name": "Madagascar",
     "native": "Madagasikara",
     "phone": "261",
     "continent": "AF",
     "capital": "Antananarivo",
-     "cities":["","","",""],
+    "cities": [
+      "",
+      "",
+      "",
+      ""
+    ],
     "currency": "MGA",
     "languages": [
       "fr",
       "mg"
     ]
   },
-"ML": {
+  "ML": {
     "name": "Mali",
     "native": "Mali",
     "phone": "223",
     "continent": "AF",
     "capital": "Bamako",
     "currency": "XOF",
-    "cities":["","","",""],
+    "cities": [
+      "",
+      "",
+      "",
+      ""
+    ],
     "languages": [
       "fr"
     ]
@@ -397,45 +548,65 @@
     "phone": "222",
     "continent": "AF",
     "capital": "Nouakchott",
-      "cities":["","","",""],
+    "cities": [
+      "",
+      "",
+      "",
+      ""
+    ],
     "currency": "MRO",
     "languages": [
       "ar"
     ]
   },
- "MU": {
+  "MU": {
     "name": "Mauritius",
     "native": "Maurice",
     "phone": "230",
     "continent": "AF",
     "capital": "Port Louis",
     "currency": "MUR",
-     "cities":["","","",""],
+    "cities": [
+      "",
+      "",
+      "",
+      ""
+    ],
     "languages": [
       "en"
     ]
   },
-"MW": {
+  "MW": {
     "name": "Malawi",
     "native": "Malawi",
     "phone": "265",
     "continent": "AF",
     "capital": "Lilongwe",
     "currency": "MWK",
-    "cities":["","","",""],
+    "cities": [
+      "",
+      "",
+      "",
+      ""
+    ],
     "languages": [
       "en",
       "ny"
     ]
   },
-"MZ": {
+  "MZ": {
     "name": "Mozambique",
-    "native": "Moçambique",
+    "native": "Moï¿½ambique",
     "phone": "258",
     "continent": "AF",
     "capital": "Maputo",
     "currency": "MZN",
-    "cities":["","","",""],
+    "cities": [
+      "",
+      "",
+      "",
+      ""
+    ],
     "languages": [
       "pt"
     ]
@@ -447,70 +618,100 @@
     "continent": "AF",
     "capital": "Windhoek",
     "currency": "NAD,ZAR",
-      "cities":["","","",""],
+    "cities": [
+      "",
+      "",
+      "",
+      ""
+    ],
     "languages": [
       "en",
       "af"
     ]
   },
-"NE": {
+  "NE": {
     "name": "Niger",
     "native": "Niger",
     "phone": "227",
     "continent": "AF",
     "capital": "Niamey",
     "currency": "XOF",
-    "cities":["","","",""],
+    "cities": [
+      "",
+      "",
+      "",
+      ""
+    ],
     "languages": [
       "fr"
     ]
   },
-"NG": {
+  "NG": {
     "name": "Nigeria",
     "native": "Nigeria",
     "phone": "234",
     "continent": "AF",
     "capital": "Abuja",
     "currency": "NGN",
-    "cities":["","","",""],
+    "cities": [
+      "",
+      "",
+      "",
+      ""
+    ],
     "languages": [
       "en"
     ]
   },
-"RE": {
-    "name": "Réunion",
-    "native": "La Réunion",
+  "RE": {
+    "name": "Rï¿½union",
+    "native": "La Rï¿½union",
     "phone": "262",
     "continent": "AF",
     "capital": "Saint-Denis",
     "currency": "EUR",
-    "cities":["","","",""],
+    "cities": [
+      "",
+      "",
+      "",
+      ""
+    ],
     "languages": [
       "fr"
     ]
   },
-"RW": {
+  "RW": {
     "name": "Rwanda",
     "native": "Rwanda",
     "phone": "250",
     "continent": "AF",
     "capital": "Kigali",
     "currency": "RWF",
-    "cities":["","","",""],
+    "cities": [
+      "",
+      "",
+      "",
+      ""
+    ],
     "languages": [
       "rw",
       "en",
       "fr"
     ]
   },
-"SC": {
+  "SC": {
     "name": "Seychelles",
     "native": "Seychelles",
     "phone": "248",
     "continent": "AF",
     "capital": "Victoria",
     "currency": "SCR",
-    "cities":["","","",""],
+    "cities": [
+      "",
+      "",
+      "",
+      ""
+    ],
     "languages": [
       "fr",
       "en"
@@ -523,169 +724,239 @@
     "continent": "AF",
     "capital": "Khartoum",
     "currency": "SDG",
-      "cities":["","","",""],
+    "cities": [
+      "",
+      "",
+      "",
+      ""
+    ],
     "languages": [
       "ar",
       "en"
     ]
   },
-"SH": {
+  "SH": {
     "name": "Saint Helena",
     "native": "Saint Helena",
     "phone": "290",
     "continent": "AF",
     "capital": "Jamestown",
     "currency": "SHP",
-    "cities":["","","",""],
+    "cities": [
+      "",
+      "",
+      "",
+      ""
+    ],
     "languages": [
       "en"
     ]
   },
-"SL": {
+  "SL": {
     "name": "Sierra Leone",
     "native": "Sierra Leone",
     "phone": "232",
     "continent": "AF",
     "capital": "Freetown",
     "currency": "SLL",
-    "cities":["","","",""],
+    "cities": [
+      "",
+      "",
+      "",
+      ""
+    ],
     "languages": [
       "en"
     ]
   },
-    "SN": {
+  "SN": {
     "name": "Senegal",
-    "native": "Sénégal",
+    "native": "Sï¿½nï¿½gal",
     "phone": "221",
     "continent": "AF",
     "capital": "Dakar",
     "currency": "XOF",
-    "cities":["","","",""],
+    "cities": [
+      "",
+      "",
+      "",
+      ""
+    ],
     "languages": [
       "fr"
     ]
   },
-    "SO": {
+  "SO": {
     "name": "Somalia",
     "native": "Soomaaliya",
     "phone": "252",
     "continent": "AF",
     "capital": "Mogadishu",
     "currency": "SOS",
-    "cities":["","","",""],
+    "cities": [
+      "",
+      "",
+      "",
+      ""
+    ],
     "languages": [
       "so",
       "ar"
     ]
   },
-"SS": {
+  "SS": {
     "name": "South Sudan",
     "native": "South Sudan",
     "phone": "211",
     "continent": "AF",
     "capital": "Juba",
     "currency": "SSP",
-    "cities":["","","",""],
+    "cities": [
+      "",
+      "",
+      "",
+      ""
+    ],
     "languages": [
       "en"
     ]
   },
   "ST": {
-    "name": "São Tomé and Príncipe",
-    "native": "São Tomé e Príncipe",
+    "name": "Sï¿½o Tomï¿½ and Prï¿½ncipe",
+    "native": "Sï¿½o Tomï¿½ e Prï¿½ncipe",
     "phone": "239",
     "continent": "AF",
-    "capital": "São Tomé",
+    "capital": "Sï¿½o Tomï¿½",
     "currency": "STD",
-      "cities":["","","",""],
+    "cities": [
+      "",
+      "",
+      "",
+      ""
+    ],
     "languages": [
       "pt"
     ]
   },
-"SZ": {
+  "SZ": {
     "name": "Swaziland",
     "native": "Swaziland",
     "phone": "268",
     "continent": "AF",
     "capital": "Lobamba",
     "currency": "SZL",
-    "cities":["","","",""],
+    "cities": [
+      "",
+      "",
+      "",
+      ""
+    ],
     "languages": [
       "en",
       "ss"
     ]
   },
-"TD": {
+  "TD": {
     "name": "Chad",
     "native": "Tchad",
     "phone": "235",
     "continent": "AF",
     "capital": "N'Djamena",
     "currency": "XAF",
-    "cities":["","","",""],
+    "cities": [
+      "",
+      "",
+      "",
+      ""
+    ],
     "languages": [
       "fr",
       "ar"
     ]
   },
-"TG": {
+  "TG": {
     "name": "Togo",
     "native": "Togo",
     "phone": "228",
     "continent": "AF",
-    "capital": "Lomé",
+    "capital": "Lomï¿½",
     "currency": "XOF",
-    "cities":["","","",""],
+    "cities": [
+      "",
+      "",
+      "",
+      ""
+    ],
     "languages": [
       "fr"
     ]
   },
-"TN": {
+  "TN": {
     "name": "Tunisia",
     "native": "????",
     "phone": "216",
     "continent": "AF",
     "capital": "Tunis",
     "currency": "TND",
-    "cities":["","","",""],
+    "cities": [
+      "",
+      "",
+      "",
+      ""
+    ],
     "languages": [
       "ar"
     ]
   },
-"TZ": {
+  "TZ": {
     "name": "Tanzania",
     "native": "Tanzania",
     "phone": "255",
     "continent": "AF",
     "capital": "Dodoma",
     "currency": "TZS",
-    "cities":["","","",""],
+    "cities": [
+      "",
+      "",
+      "",
+      ""
+    ],
     "languages": [
       "sw",
       "en"
     ]
   },
-"UG": {
+  "UG": {
     "name": "Uganda",
     "native": "Uganda",
     "phone": "256",
     "continent": "AF",
     "capital": "Kampala",
     "currency": "UGX",
-    "cities":["","","",""],
+    "cities": [
+      "",
+      "",
+      "",
+      ""
+    ],
     "languages": [
       "en",
       "sw"
     ]
   },
-"YT": {
+  "YT": {
     "name": "Mayotte",
     "native": "Mayotte",
     "phone": "262",
     "continent": "AF",
     "capital": "Mamoudzou",
     "currency": "EUR",
-    "cities":["","","",""],
+    "cities": [
+      "",
+      "",
+      "",
+      ""
+    ],
     "languages": [
       "fr"
     ]
@@ -697,7 +968,12 @@
     "continent": "AF",
     "capital": "Pretoria",
     "currency": "ZAR",
-      "cities":["","","",""],
+    "cities": [
+      "",
+      "",
+      "",
+      ""
+    ],
     "languages": [
       "af",
       "en",
@@ -718,7 +994,12 @@
     "continent": "AF",
     "capital": "Lusaka",
     "currency": "ZMK",
-    "cities":["a","","",""],
+    "cities": [
+      "a",
+      "",
+      "",
+      ""
+    ],
     "languages": [
       "en"
     ]
@@ -730,7 +1011,12 @@
     "continent": "AF",
     "capital": "Harare",
     "currency": "ZWL",
-    "cities":["","","",""],
+    "cities": [
+      "",
+      "",
+      "",
+      ""
+    ],
     "languages": [
       "en",
       "sn",
