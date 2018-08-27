@@ -1,4 +1,4 @@
-var gameOver ={    
+module.exports ={    
     preload: function() {
 },
 

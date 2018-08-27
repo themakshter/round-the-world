@@ -1,4 +1,4 @@
-var flagState ={    
+module.exports ={    
     create: function() {    
         this.game.global.score=0;
         

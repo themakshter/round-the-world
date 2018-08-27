@@ -1,4 +1,4 @@
-var preloadState ={   
+module.exports = {   
     //load all flgas, bitmap text, buttons
     preload: function() {
         this.bg = this.game.add.bitmapText(this.world.centerX,400,'myfont', "Round the World", 150);

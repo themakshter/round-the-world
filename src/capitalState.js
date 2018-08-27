@@ -1,4 +1,4 @@
-var capitalState ={    
+module.exports ={    
     create: function() {
         this.game.global.score=0;
         this.usedCapitals =[];

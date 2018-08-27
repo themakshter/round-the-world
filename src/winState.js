@@ -1,4 +1,4 @@
-var winState ={    
+module.exports ={    
     create: function() {   
         this.wonSound = this.game.add.audio('won');
         this.wonSound.play();

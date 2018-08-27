@@ -1,4 +1,4 @@
-var learnState ={    
+module.exports ={    
     create: function() {
         this.nextSound = this.game.add.audio('next');
         this.backSound = this.game.add.audio('back');
