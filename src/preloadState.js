@@ -264,12 +264,12 @@ module.exports = {
     this.game.load.image('leftArrow', 'assets/images/leftArrow.png');
     this.game.load.image('rightArrow', 'assets/images/rightArrow.png');
     this.game.load.spritesheet('option', 'assets/images/options.png', 404, 304, 3);
-    this.game.load.image('btFlag', 'assets/images/button.png');
+    this.game.load.image('btFlag', 'assets/images/bt2.png');
     this.game.load.image('btBack', 'assets/images/back.png');
     this.game.load.image('btHome', 'assets/images/options.png');
     this.game.load.bitmapFont('myguifont', 'assets/fonts/guifont.png', 'assets/fonts/guifont.fnt');
     this.game.load.spritesheet('lives', 'assets/images/lives.png', 324, 68, 5);
-    this.game.load.text('infoAF', 'src/countries.json ');
+    this.game.load.text('infoAF', 'assets/data/countries.json ');
 
     this.game.load.audio('correct', 'assets/audio/correct.ogg');
     this.game.load.audio('wrong', 'assets/audio/wrong.ogg');

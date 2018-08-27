@@ -4,6 +4,7 @@
   "description": "a game for learning facts and information about countries ",
   "main": "index.js",
   "scripts": {
+    "build": "webpack",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
