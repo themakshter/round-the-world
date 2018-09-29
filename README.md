@@ -15,7 +15,7 @@ roundTheWorldGame.createGameInDiv('canvasId');
 
 ```
 
-You will also need to copy over the `assets` folder into the main directory you will have the html file running this game.
+You will also need to copy over the `assets` folder into the main directory you will have the html file running this game. Secondly, you should also incldue the libraries listed as dependencies into your main file as in this project's demo `index.html` as they weren't really designed to be modular. There might be some work to convert them in the future for this library but it's low on priorities.
 
 ## Contributing
 

@@ -26,7 +26,7 @@ Please follow the [seven rules of a greate Git commit message](https://chris.bea
 
 Please create [issues](https://github.com/PCs4KIDS/round-the-world/issues) for any bugs in the code. Well structured, detailed bug reports are hugely valuable for the project.
 
-Guidelines for reporting bugs:
+### Guidelines for reporting bugs
 
 - Check the issue search to see if it has already been reported
 - Isolate the problem to a simple test case
