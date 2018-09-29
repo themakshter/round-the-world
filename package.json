@@ -1,8 +1,8 @@
 {
-  "name": "round_the_world",
+  "name": "@pcs4kids/round-the-world",
   "version": "1.0.0",
-  "description": "a game for learning facts and information about countries ",
-  "main": "index.js",
+  "description": "A game for learning facts and information about countries ",
+  "main": "dist/round-the-world-game.js",
   "scripts": {
     "build": "webpack",
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/msz4/Round_the_World.git"
+    "url": "git+https://github.com/PCs4KIDS/round-the-world.git"
   },
   "keywords": [
     "game"
@@ -18,9 +18,9 @@
   "author": "MSZubair",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/msz4/Round_the_World/issues"
+    "url": "https://github.com/PCs4KIDS/round-the-world/issues"
   },
-  "homepage": "https://github.com/msz4/Round_the_World#readme",
+  "homepage": "https://github.com/PCs4KIDS/round-the-world#readme",
   "devDependencies": {
     "http-server": "0.11.1",
     "webpack": "4.20.2"

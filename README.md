@@ -23,4 +23,4 @@ Before submitting a pull request, please take a moment to look over the [contrib
 
 ## License
 
-`@pcs4kids/round-the-world` is available under the [MIT License](https://opensource.org/licenses/MIT).
+`@pcs4kids/round-the-world` is available under the [ISC License](https://opensource.org/licenses/ISC).
