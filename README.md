@@ -1,5 +1,7 @@
 # round-the-world
 
+[![npm (scoped)](https://img.shields.io/npm/v/@pcs4kids/round-the-world.svg)](https://www.npmjs.com/package/@pcs4kids/round-the-world)
+
 Library wrapper around the educational game to run it in other applications.
 
 ## Getting Started
