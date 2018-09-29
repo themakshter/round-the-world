@@ -8,9 +8,9 @@ module.exports = {
   },
 
   preload: function () {
-    this.game.load.bitmapFont('myfont', 'assets/fonts/fontshadow.png', 'assets/fonts/fontshadow.fnt');
-    this.load.image('loadingBar', 'assets/images/loading.png');
-    this.load.image('globe', 'assets/images/globe.png');
+    this.game.load.bitmapFont('myfont', 'assets/round-the-world/fonts/fontshadow.png', 'assets/round-the-world/fonts/fontshadow.fnt');
+    this.load.image('loadingBar', 'assets/round-the-world/images/loading.png');
+    this.load.image('globe', 'assets/round-the-world/images/globe.png');
   },
 
   create: function () {
