@@ -1,4 +1,4 @@
-createGameInDiv('game-canvas')
+module.exports.createGameInDiv = createGameInDiv;
 
 function createGameInDiv(divId) {
   var game = new Phaser.Game('100', '100', Phaser.CANVAS, divId);
