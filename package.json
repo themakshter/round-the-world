@@ -2,7 +2,7 @@
   "name": "@pcs4kids/round-the-world",
   "version": "1.0.0",
   "description": "A game for learning facts and information about countries ",
-  "main": "dist/round-the-world-game.js",
+  "main": "dist/round-the-world-game.min.js",
   "scripts": {
     "build": "webpack",
     "test": "echo \"Error: no test specified\" && exit 1",
