@@ -29,7 +29,6 @@
   },
   "dependencies": {
     "@orange-games/phaser-input": "^2.0.5",
-    "@orange-games/phaser-nineslice": "2.0.1",
     "phaser-ce": "2.10.6"
   }
 }
