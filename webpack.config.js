@@ -20,7 +20,9 @@ module.exports = {
   output: {
     path: path.resolve(__dirname, 'dist'),
     filename: 'round-the-world-game.min.js',
-    library: 'roundTheWorldGame'
+    libraryTarget:'umd',
+    library: 'roundTheWorldGame',
+    umdNamedDefine: true
   },
   devtool: 'source-map'
 };
